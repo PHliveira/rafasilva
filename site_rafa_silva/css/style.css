@@ -1,0 +1,97 @@
+
+
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+  color: white;
+}
+#bg-video {
+  position:absolute;
+  z-index: -2;
+   top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  
+}
+/* navIcones */
+
+.iconesNav {
+  list-style: none;       /* remove os pontos da lista */
+  padding: 0;
+  margin: 0;
+  display: flex;          /* coloca os itens em linha */
+  gap: 15px;              /* espaçamento entre os ícones */
+  align-items: center;
+  justify-content: flex-start; /* garante alinhamento à esquerda */
+}
+
+.iconesNav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.iconesNav .nav-link {
+  padding: 0;             /* remove espaçamento padrão do Bootstrap */
+}
+
+.iconesNav img {
+  width: 30px;            /* tamanho dos ícones */
+  height: 30px;
+  display: block;
+  transition: transform 0.2s ease; /* efeito suave no hover */
+}
+
+.iconesNav img:hover {
+  transform: scale(1.1);
+}
+
+/* FIMnavIcones */
+
+
+/* Fotos */
+#fotos{
+  color: white;
+  background-color: black;
+}
+/* FIM Fotos */
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.baixo{
+  position: relative;
+  top: 100%;
+  
+}
+
+.imgLogo img{
+  margin-top: 20vh;
+  width: 45vh;
+  }
+
+.btn-agenda {
+  margin: 50px;
+}
+
+form{
+  margin-bottom: 50px;
+}
+
+#feed{
+  margin-top: 50px;
+}
